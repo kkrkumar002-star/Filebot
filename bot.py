@@ -7,6 +7,7 @@ from datetime import datetime, timedelta
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
+app = Client("filebot", 
 API_ID =39325133
 API_HASH ="908f9506cb6ef3136a106e7e2af9555d"
 BOT_TOKEN = "8073978123:AAEVxGgXLyjEeZu2c15tYrqB2pYRMuADJvQ"
@@ -16,8 +17,7 @@ SHORTLINK_URL = "https://ez4short.com/api"
 
 FORCE_CHANNEL ="Hkmoviestudio"
 ADMIN_ID = 6484097434 
-
-app = Client("filebot", 
+ 
 
 db = sqlite3.connect("database.db", check_same_thread=False)
 cursor = db.cursor()
