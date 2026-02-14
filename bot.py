@@ -8,16 +8,16 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 API_ID =39325133
-API_HASH =908f9506cb6ef3136a106e7e2af9555d "YOUR_API_HASH"
-BOT_TOKEN = 8073978123:AAEVxGgXLyjEeZu2c15tYrqB2pYRMuADJvQ "YOUR_BOT_TOKEN"
+API_HASH =908f9506cb6ef3136a106e7e2af9555d
+BOT_TOKEN = 8073978123:AAEVxGgXLyjEeZu2c15tYrqB2pYRMuADJvQ
 
-SHORTLINK_API = "YOUR_SHORTLINK_API" 5ad72e9e34f0cf4b51672fa02efa8ecdd2c09da2
+SHORTLINK_API =5ad72e9e34f0cf4b51672fa02efa8ecdd2c09da2
 SHORTLINK_URL = "https://ez4short.com/api"
 
-FORCE_CHANNEL ="Hkmoviestudio" "yourchannelusername"
-ADMIN_ID = 6484097434  # apna telegram id
+FORCE_CHANNEL ="Hkmoviestudio"
+ADMIN_ID = 6484097434 
 
-app = Client("filebot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
+app = Client("filebot", 
 
 db = sqlite3.connect("database.db", check_same_thread=False)
 cursor = db.cursor()
